@@ -26,6 +26,7 @@ import xml.etree.ElementTree as etree
 from svgpath2mpl import parse_path
 
 from sim import *
+from utils import *
 
 def get_random_topology(n=None,N_min=8,N_max=20,g_pob=0.25):
     # This function generates random skeletons with 1 DOF and no redundancy

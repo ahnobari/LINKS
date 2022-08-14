@@ -25,6 +25,10 @@ import xml.etree.ElementTree as etree
 
 from svgpath2mpl import parse_path
 
+from utils import *
+
+normalizer_object = curve_normalizer()
+
 
 def find_path(A, motor = [0,1], fixed_nodes=[0, 1]):
     

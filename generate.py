@@ -1,9 +1,12 @@
 from LINKS import *
+import argparse
 
 parser = argparse.ArgumentParser(description='DataGen Parameters')
 
 parser.add_argument('--N', type=int, default=10000, help='Number of Topologies')
 parser.add_argument('--save_name', type=str, default='dataset', help='Save name will save as mechanisms as "save_name". If already exisitin will append')
+
+args = parser.parse_args()
 
 print('Generating Topologies ...')
 topologies = run_imap_multiprocessing(get_random_topology,[None]*args.N)
@@ -19,11 +22,12 @@ for i in range(len(candidates)):
     for j in range(5):
         x0 = candidates[i][j].astype(np.float32)
         node_type = np.zeros([A.shape[0]]).astype(np.bool)
-        node_type[fixed_nodes] = 0
-        mechanisms.append(A.astype(np.bool), x0, node_type)
+        node_type[fixed_nodes] = 1
+        mechanisms.append([A.astype(np.bool), x0, node_type])
 
 print('Processin Data ...')
-sols = run_imap_multiprocessing(simulate_mechanism,M)
+
+sols = run_imap_multiprocessing(simulate_mechanism,mechanisms)
 
 xsol = []
 xsoln = []
