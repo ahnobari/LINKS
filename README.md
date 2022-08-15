@@ -40,3 +40,8 @@ Web demo and project webpage will go live august 22nd, 2022.
 
 Project Webpage:
 <a href="https://decode.mit.edu/projects/LINKS">Project Page</a>
+
+### More research on inverse kinematics coming soon! Keep an eye out:
+
+Sneak Peak:
+<img width="100%" src="https://i.ibb.co/y69Yp2d/ezgif-5-0bf2f3d82a.gif" alt="IBM Mechanism">
