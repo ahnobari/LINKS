@@ -20,7 +20,7 @@ A reduced dataset of 1,000,000 Mechanisms are provided publicly without any limi
 <a href="https://forms.gle/Xx8ZJiZGPjDPVBFu7">Full Dataset Request Form</a>
 
 ### Dataset Description
-The dataset is provided in 4 files. The mechanisms in the "dataset" file, the numerical simulation data for each mechanism in the "simulation_dataset" file and the dataset of the normalized curves in the "noralized_dataset" file, and the curated normalized curves in the "curated_dataset" file.
+The dataset is provided in 4 files. The mechanisms in the "dataset" file, the numerical simulation data for each mechanism in the "simulation_dataset" file and the dataset of the normalized curves in the "normalized_dataset" file, and the curated normalized curves in the "curated_dataset" file.
 
 For more details on the structure of the data and use of our utilty functions see the jupyter notebook in the Dataset folder.
 
@@ -34,3 +34,9 @@ The code provided here includes all the parts needed to generate your own datase
 This will generate 5000 (5 variations on 1000 topoloies) and save the dataset in files called "dataset", "simulation_dataset", "noralized_dataset", "curated_dataset" with structures identical to the dataset provided.
 
 Note that the GPU solvers are also included in the sim.py but not used directly in the code.
+
+### Webdemo And Project Page Coming August 22nd
+Web demo and project webpage will go live august 22nd, 2022.
+
+Project Webpage:
+<a href="https://decode.mit.edu/projects/LINKS">Project Page</a>
