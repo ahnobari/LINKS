@@ -44,4 +44,4 @@ Project Webpage:
 ### More research on inverse kinematics coming soon! Keep an eye out:
 
 Sneak Peak:
-<img width="100%" src="https://i.ibb.co/y69Yp2d/ezgif-5-0bf2f3d82a.gif" alt="IBM Mechanism">
+<img width="100%" src="https://i.ibb.co/LxFJrKY/ezgif-5-0bf2f3d82a.gif" alt="IBM Mechanism">
