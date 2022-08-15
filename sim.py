@@ -3,8 +3,6 @@ from math import sin, cos, acos, pi
 import warnings
 warnings.filterwarnings("ignore")
 import numpy as np
-import pymoo
-from pymoo.util.display import Display
 from tqdm.autonotebook import trange
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
