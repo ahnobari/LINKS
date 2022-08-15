@@ -44,5 +44,5 @@ Project Webpage:
 ### More research on inverse kinematics coming soon! Keep an eye out:
 
 Sneak Peak:
-[![Watch the video]](https://filebin.net/puxmtnqjsbvyuf6l/IBM_Final.mp4)
+https://filebin.net/puxmtnqjsbvyuf6l/IBM_Final.mp4
 
