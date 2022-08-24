@@ -25,18 +25,12 @@ The dataset is provided in 4 files. The mechanisms in the "dataset" file, the nu
 For more details on the structure of the data and use of our utilty functions see the jupyter notebook in the Dataset folder.
 
 ### Code Details
-The code provided here includes all the parts needed to generate your own dataset. To do this simply run:
-
-```bash
-   python train_models.py --N 1000 --save_name dataset
-```
-
-This will generate 5000 (5 variations on 1000 topoloies) and save the dataset in files called "dataset", "simulation_dataset", "noralized_dataset", "curated_dataset" with structures identical to the dataset provided.
+The code provided here includes all the parts needed to open and simulate the mechanisms in the dataset. See Dataset.ipynb in the dataset folder for examples.
 
 Note that the GPU solvers are also included in the sim.py but not used directly in the code.
 
-### Webdemo And Project Page Coming August 22nd
-Web demo and project webpage will go live august 22nd, 2022.
+### Webdemo And Project Page Coming September 8th
+Web demo and project webpage will go live September 8th, 2022.
 
 Project Webpage:
 <a href="https://decode.mit.edu/projects/LINKS">Project Page</a>
